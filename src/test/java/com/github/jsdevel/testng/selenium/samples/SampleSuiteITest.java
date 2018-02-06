@@ -75,7 +75,7 @@ public class SampleSuiteITest extends AbstractSuite<SamplePageFactory> {
   public void we_should_be_able_to_configure_values_from_properties_files() {
     assertEquals("testing TestNG-Selenium", Config.LOGGING_PREFIX);
    System.out.println("foo");
-        assertEquals("testing ", Config.LOGGING_PREFIX);
+      //  assertEquals("testing ", Config.LOGGING_PREFIX);
 
   }
 }
