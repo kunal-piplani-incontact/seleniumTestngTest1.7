@@ -95,7 +95,7 @@
         <configuration>
           <suiteXmlFiles>
           <suiteXmlFile>${basedir}/src/test/resources/testng.xml</suiteXmlFile>
-          </suiteXmlFiles>          </suiteXmlFiles>
+          </suiteXmlFiles>          
           <systemProperties>
             <testng.selenium.endpoint>${testng.selenium.endpoint}</testng.selenium.endpoint>
           </systemProperties>
