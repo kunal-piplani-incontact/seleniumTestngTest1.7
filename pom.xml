@@ -94,8 +94,8 @@
         <version>2.18.1</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
-          </suiteXmlFiles>
+          <suiteXmlFile>${basedir}/src/test/resources/testng.xml</suiteXmlFile>
+          </suiteXmlFiles>          </suiteXmlFiles>
           <systemProperties>
             <testng.selenium.endpoint>${testng.selenium.endpoint}</testng.selenium.endpoint>
           </systemProperties>
