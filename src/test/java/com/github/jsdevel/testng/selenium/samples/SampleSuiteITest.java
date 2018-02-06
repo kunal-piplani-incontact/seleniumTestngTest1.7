@@ -14,6 +14,8 @@ import org.testng.annotations.Test;
 public class SampleSuiteITest extends AbstractSuite<SamplePageFactory> {
   @Test
   public void we_should_be_able_to_view_google_with_phantom() {
+    System.out.println("Passed");
+            
     getPageFactory().getHomePage();
   }
 
