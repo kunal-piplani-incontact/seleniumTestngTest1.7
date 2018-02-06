@@ -93,6 +93,9 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>2.18.1</version>
         <configuration>
+         
+<forkMode>never</forkMode>
+
           <suiteXmlFiles>
           <suiteXmlFile>${basedir}/src/test/resources/testng.xml</suiteXmlFile>
           </suiteXmlFiles>          
